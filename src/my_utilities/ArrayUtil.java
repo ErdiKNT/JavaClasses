@@ -44,4 +44,25 @@ Max num in an array
         return check;
     }
 
+   //Returns index int type
+    public static int indexOf(int[] nums, int element){
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] == element){
+                return i;
+            }
+        }
+
+        return -1; //if nums[i] never match with the element that I am looking for, then it will return -1.
+    }
+    //Returns index string type
+    public static int indexOf(String[] str, String element){
+        for (int i = 0; i < str.length; i++) {
+            if(str[i].equals(element)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+
 }
