@@ -11,8 +11,8 @@ public class AddElement {
         String[] origin = {"Erdi", "Fadime"};
         String[] added = addElement(origin, "ayla");
         System.out.println(Arrays.toString(added));//  [Erdi, Fadime, ayla]
-        int[] elements = {1, 2};
 
+        int[] elements = {1, 2};
         System.out.println(Arrays.toString(addElements(a,elements)));// [1, 2, 3, 0, 2]
     }
 
