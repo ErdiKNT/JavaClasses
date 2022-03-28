@@ -15,7 +15,7 @@ How to import scanner and array classes with one import:
  */
 
 
-// We are going to call out methods in thi class.
+// We are going to call out methods in this class.
 public class UsingStringUtil {
     public static void main(String[] args) {
 
