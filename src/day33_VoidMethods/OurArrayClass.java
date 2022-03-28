@@ -37,9 +37,9 @@ public class OurArrayClass {
 
     public static void main(String[] args) {
         int[] numbers = {50, 0, 10, 500, 20, 40, 124};
-        firstElement(numbers);
-        LastElement(numbers);
-        MiddleElements(numbers);
+        firstElement(numbers); //50
+        LastElement(numbers);  //124
+        MiddleElements(numbers);//500
         System.out.println();
         int[] numbers2 = {50, 0, 10, 500, 20, 40, 124, 19};
         firstElement(numbers2);
