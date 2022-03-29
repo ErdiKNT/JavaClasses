@@ -1,5 +1,7 @@
 package day30_Arrays;
 
+import day38_ArrayList.Trial;
+
 public class ReverseEachWords {
 
     public static void main(String[] args) {
@@ -10,16 +12,15 @@ public class ReverseEachWords {
         String reverse="";
         String sum = "";
         for (int i = 0; i < arr.length; i++) {
-               str1=arr[i];
-               reverse="";
-            for (int j = str1.length()-1; j >= 0 ; j--) {
-                 reverse+=str1.charAt(j);
+             str1 = arr[i];
+             reverse="";
+            for (int j = str1.length()-1; j >=0 ; j--) {
+                  reverse+=str1.charAt(j);
             }
 
-             sum+=reverse+" ";
+            sum+=reverse+" ";
         }
         System.out.println(sum);
-
 
 
 
