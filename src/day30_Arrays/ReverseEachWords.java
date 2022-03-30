@@ -1,7 +1,5 @@
 package day30_Arrays;
 
-import day38_ArrayList.Trial;
-
 public class ReverseEachWords {
 
     public static void main(String[] args) {
