@@ -10,8 +10,8 @@ public class GoogleSearch {
         String timeStr = arr[3].substring(1);
 
 
-        System.out.println(resultStr); //String type 2550000000
-        System.out.println(timeStr);
+        System.out.println(resultStr); //  String type 2550000000
+        System.out.println(timeStr);   //  1.00
 
         Long resultNumber = Long.parseLong(resultStr);
         System.out.println(resultNumber);// long type 2550000000
