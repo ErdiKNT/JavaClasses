@@ -1,6 +1,9 @@
 package day37_Wrapper_ArrayList;
 
+import day40_ArrayList.ArrayListWithMethods;
+
 import java.util.Arrays;
+
 
 /*
 given some string, count the number of uppercase, lowercase, numbers and other characters
@@ -8,6 +11,7 @@ given some string, count the number of uppercase, lowercase, numbers and other c
  */
 public class CountCharacters {
     public static void main(String[] args) {
+
         String s = "aP3d572&*jd@jdJU";
         String upperCaseChars = "";
         int upper =0, lower =0, number=0, other =0;
@@ -26,6 +30,7 @@ public class CountCharacters {
                 other++;
             }
         }
+
         System.out.println("upperCaseChars = " + Arrays.toString(upperCaseChars.toCharArray())); // We can do for the others
 
         System.out.println("upper: " + upper);

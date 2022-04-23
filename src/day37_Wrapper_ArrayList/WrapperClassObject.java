@@ -18,7 +18,7 @@ public class WrapperClassObject {
         Byte b2 = 20;
         b2.toString(); // For example: Now we can apply toString Method at the b2. Then we are able to make it string.
         System.out.println(b2.toString() + 2); // The result is 202 because b2 is a string object.
-
+        String str = String.valueOf(b2); // Converts Byte b2 object into String object
 
 
     }

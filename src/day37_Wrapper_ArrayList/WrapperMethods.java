@@ -41,7 +41,7 @@ public class WrapperMethods {
         it.
          */
         int b = 3; // Try this!!!! After you type b which is variable name of the primitive, press the '.' you are not going to see any method to use it.
-        Integer b1 = Integer.valueOf(b); // Now, once you type b1 variable name, then put the '.', now you are able to see such a beautiful methods in order to
+        Integer b1 = b; // Now, once you type b1 variable name, then put the '.', now you are able to see such a beautiful methods in order to
         //use them. Such methods are toString (That gives you the opportunity to make your int data type into string) or compareTo().
         String method = b1.toString(); // Now, this one became a string. From primitive data type into the object.
         String digits = "123456";
