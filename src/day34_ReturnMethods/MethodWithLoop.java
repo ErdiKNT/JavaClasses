@@ -2,7 +2,7 @@ package day34_ReturnMethods;
 
 public class MethodWithLoop {
     public static void main(String[] args) {
-        int[] arr = {5, 1, 7, 13, 5};
+        int[] arr = {5, 1, 8, 13, 5};
         System.out.println(firstEvenNumber(arr));
 
 
