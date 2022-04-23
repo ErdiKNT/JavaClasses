@@ -9,8 +9,8 @@ public class CharArray {
         String word = "java";
         char [] java = word.toCharArray();
 
-        System.out.println(Arrays.toString(letters));
-        System.out.println(Arrays.toString(java));
+        System.out.println(Arrays.toString(letters)); // [J, A, V, A]
+        System.out.println(Arrays.toString(java));   //  [j, a, v, a]
 
         for (char eachChar : java){
             System.out.println(eachChar);
