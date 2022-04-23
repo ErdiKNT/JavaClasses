@@ -1,5 +1,6 @@
-package day39_ArrayList;
+package day41_ArrayListPractice;
 
+import java.io.FilterOutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -7,13 +8,13 @@ public class SwitchPairs {
     public static void main(String[] args) {
         ArrayList<String> pairs = new ArrayList<>(Arrays.asList("Cat", "in", "the", "hat"));
 
-        System.out.println("There are two pairs: \n" + "\""+pairs.get(0) +"\""+ " and " +"\"" +pairs.get(1)+"\"\n" + "\""+pairs.get(2)+"\""+ " and " + "\""+ pairs.get(3)+"\"" );
-        pairs.set(0, "in");
-        pairs.set(1,"cat");
-        pairs.set(2, "hat");
-        pairs.set(3, "the");
-        System.out.println(pairs);
+        for (int i = 0; i < pairs.size(); i+=2) {
+            String temp = pairs.get(i); // "Cat"
+            pairs.set(i, pairs.get(i+1)); // storing "in" to position i, 0
+            pairs.set(i +1, temp);
 
+        }
+        System.out.println(pairs);
 
     }
 }
