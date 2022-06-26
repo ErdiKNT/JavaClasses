@@ -50,7 +50,7 @@ Collection bir cok objenin tek bir noktada toplanmasi diyebiliriz. Burada new Ve
 Her processin threadleri var. Islemci bunlar icin schedule yapar ve islemi yerine getirir. Diyelim ki ben ve fadime ayni banka kartini kullaniyoruz
 ikimizde ayni anda farkli atmlerdeyiz ve 500 dolar para cekecegiz. Toplamda 1000 dolar yok hesapta. Thread safe bizim ayni anda fazla para cekmemize engel olur
 Bu durumda ben bir threadim, fadimem oteki thread ayni anda ikimiz tek bir elemente yuklenmis oluruz. Eskiden bilgisayarlar yavasken vector clasi daha cok kullanilirdi
-tek seferde tek bir thread islenirdi daha sonra oteki threade gecilirdi. Fakar ArrayList vectorden daha hizli ve multiple threadleri ayni anda processe
+tek seferde tek bir thread islenirdi daha sonra oteki threade gecilirdi. Fakat ArrayList vectorden daha hizli ve multiple threadleri ayni anda processe
 sokabiliyoruz senkronize calisiyorlar.
 
 Mesela smoke test yapacagiz google chromeda, edgede veya firefoxda. Tek bilgisayarda sirayla beklememiz gerekir. Ayni anda farkli pclerde deneyebiliriz.

@@ -49,7 +49,7 @@ public class SetVsList {
         ortadan kalkmis olacak.
          */
 
-        System.out.println(new HashSet<>(Arrays.asList(1,5,2,1,4 ,2,5,1))); // asList method return List type which can have the reference of the Collection
+        System.out.println(new HashSet<>(Arrays.asList(1,5,2,1,4,2,5,1))); // asList method return List type which can have the reference of the Collection
         // interface, so we are able to make an object of HashSet with these initial values
 
 
